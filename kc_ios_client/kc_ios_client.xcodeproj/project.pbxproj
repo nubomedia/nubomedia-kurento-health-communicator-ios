@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C2A04DF1C74D2580043D872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2A04DE1C74D2580043D872 /* main.m */; };
+		5C2A04E21C74D2580043D872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2A04E11C74D2580043D872 /* AppDelegate.m */; };
+		5C2A04ED1C74D2580043D872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2A04EC1C74D2580043D872 /* Assets.xcassets */; };
+		5C2A04F01C74D2580043D872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2A04EE1C74D2580043D872 /* LaunchScreen.storyboard */; };
+		5C3828FA1D33AA39004EEF87 /* AgendaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3828F91D33AA39004EEF87 /* AgendaTableViewCell.m */; };
+		5C56B76D1D12B8600081A043 /* VideocallPeerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C56B76A1D12B8600081A043 /* VideocallPeerViewCell.m */; };
+		5C56B76E1D12B8600081A043 /* VideocallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C56B76C1D12B8600081A043 /* VideocallViewController.m */; };
+		5C8C3E241D113C4D00476F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8C3E231D113C4D00476F7A /* Main.storyboard */; };
+		5C8C3E311D113CAF00476F7A /* CredentialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C3E261D113CAF00476F7A /* CredentialsViewController.m */; };
+		5C8C3E321D113CAF00476F7A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C3E281D113CAF00476F7A /* SettingsViewController.m */; };
+		5C8C3E331D113CAF00476F7A /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C3E2A1D113CAF00476F7A /* RegisterViewController.m */; };
+		5C8C3E341D113CAF00476F7A /* TimelineListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C3E2C1D113CAF00476F7A /* TimelineListViewController.m */; };
+		5C8C3E351D113CAF00476F7A /* AgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C3E2E1D113CAF00476F7A /* AgendaViewController.m */; };
+		5C8C3E361D113CAF00476F7A /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C3E301D113CAF00476F7A /* TimelineViewController.m */; };
+		5CCCC0851C7C8E4D0006B667 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CCCC0841C7C8E4D0006B667 /* Localizable.strings */; };
+		5CCCC0871C7DB7400006B667 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CCCC0861C7DB7400006B667 /* Settings.bundle */; };
+		5CCCC0AE1C7DFEC80006B667 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCCC0AD1C7DFEC80006B667 /* UIView+Toast.m */; };
+		5CE46D041D12921B00D8D38B /* TimelineListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46D031D12921B00D8D38B /* TimelineListTableViewCell.m */; };
+		92C2BF78171C5F6CCDCC2174 /* libPods-kc_ios_client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4FC6A94C6D0130CB6B5DD8 /* libPods-kc_ios_client.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C2A05C41C770FBE0043D872 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5986299D1416FE4605E3CF16 /* Pods-kc_ios_client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kc_ios_client.release.xcconfig"; path = "Pods/Target Support Files/Pods-kc_ios_client/Pods-kc_ios_client.release.xcconfig"; sourceTree = "<group>"; };
+		5C2A04DA1C74D2580043D872 /* kc_ios_client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kc_ios_client.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2A04DE1C74D2580043D872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C2A04E01C74D2580043D872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C2A04E11C74D2580043D872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C2A04EC1C74D2580043D872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C2A04EF1C74D2580043D872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C3828F81D33AA39004EEF87 /* AgendaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaTableViewCell.h; sourceTree = "<group>"; };
+		5C3828F91D33AA39004EEF87 /* AgendaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaTableViewCell.m; sourceTree = "<group>"; };
+		5C56B7691D12B8600081A043 /* VideocallPeerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideocallPeerViewCell.h; sourceTree = "<group>"; };
+		5C56B76A1D12B8600081A043 /* VideocallPeerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideocallPeerViewCell.m; sourceTree = "<group>"; };
+		5C56B76B1D12B8600081A043 /* VideocallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideocallViewController.h; sourceTree = "<group>"; };
+		5C56B76C1D12B8600081A043 /* VideocallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideocallViewController.m; sourceTree = "<group>"; };
+		5C85BEC41DCB69040068E0F2 /* kc_ios_client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kc_ios_client.entitlements; sourceTree = "<group>"; };
+		5C8C3E231D113C4D00476F7A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5C8C3E251D113CAF00476F7A /* CredentialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CredentialsViewController.h; sourceTree = "<group>"; };
+		5C8C3E261D113CAF00476F7A /* CredentialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CredentialsViewController.m; sourceTree = "<group>"; };
+		5C8C3E271D113CAF00476F7A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		5C8C3E281D113CAF00476F7A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		5C8C3E291D113CAF00476F7A /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		5C8C3E2A1D113CAF00476F7A /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		5C8C3E2B1D113CAF00476F7A /* TimelineListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineListViewController.h; sourceTree = "<group>"; };
+		5C8C3E2C1D113CAF00476F7A /* TimelineListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineListViewController.m; sourceTree = "<group>"; };
+		5C8C3E2D1D113CAF00476F7A /* AgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaViewController.h; sourceTree = "<group>"; };
+		5C8C3E2E1D113CAF00476F7A /* AgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaViewController.m; sourceTree = "<group>"; };
+		5C8C3E2F1D113CAF00476F7A /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		5C8C3E301D113CAF00476F7A /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		5C8F6DC21C7C8D3000B2303E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		5CB88D391D93CB5400362754 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = "../../../Kurento-iOS-master/WebRTC.framework"; sourceTree = "<group>"; };
+		5CCCC0841C7C8E4D0006B667 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		5CCCC0861C7DB7400006B667 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		5CCCC0AC1C7DFEC80006B667 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		5CCCC0AD1C7DFEC80006B667 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		5CE46D021D12921B00D8D38B /* TimelineListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineListTableViewCell.h; sourceTree = "<group>"; };
+		5CE46D031D12921B00D8D38B /* TimelineListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineListTableViewCell.m; sourceTree = "<group>"; };
+		8E4FC6A94C6D0130CB6B5DD8 /* libPods-kc_ios_client.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kc_ios_client.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A72219E360EE9D0A2A0842 /* Pods-kc_ios_client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kc_ios_client.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kc_ios_client/Pods-kc_ios_client.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C2A04D71C74D2580043D872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C2BF78171C5F6CCDCC2174 /* libPods-kc_ios_client.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D497AE812E9DE01AA04B3B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CB88D391D93CB5400362754 /* WebRTC.framework */,
+				8E4FC6A94C6D0130CB6B5DD8 /* libPods-kc_ios_client.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C2A04D11C74D2580043D872 = {
+			isa = PBXGroup;
+			children = (
+				5C2A04DC1C74D2580043D872 /* kc_ios_client */,
+				5C2A04DB1C74D2580043D872 /* Products */,
+				CF235AB8EED4F50041C9E428 /* Pods */,
+				4D497AE812E9DE01AA04B3B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C2A04DB1C74D2580043D872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C2A04DA1C74D2580043D872 /* kc_ios_client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C2A04DC1C74D2580043D872 /* kc_ios_client */ = {
+			isa = PBXGroup;
+			children = (
+				5C85BEC41DCB69040068E0F2 /* kc_ios_client.entitlements */,
+				5C2A04FE1C74D6BC0043D872 /* Utils */,
+				5C2A04F71C74D5CD0043D872 /* View Controller */,
+				5C2A04E01C74D2580043D872 /* AppDelegate.h */,
+				5C2A04E11C74D2580043D872 /* AppDelegate.m */,
+				5C8C3E231D113C4D00476F7A /* Main.storyboard */,
+				5C2A04EC1C74D2580043D872 /* Assets.xcassets */,
+				5C2A04EE1C74D2580043D872 /* LaunchScreen.storyboard */,
+				5C8F6DC11C7C8D2500B2303E /* Info.plist */,
+				5C2A04DD1C74D2580043D872 /* Supporting Files */,
+				5CCCC0841C7C8E4D0006B667 /* Localizable.strings */,
+				5CCCC0861C7DB7400006B667 /* Settings.bundle */,
+			);
+			path = kc_ios_client;
+			sourceTree = "<group>";
+		};
+		5C2A04DD1C74D2580043D872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C2A04DE1C74D2580043D872 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C2A04F71C74D5CD0043D872 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C8C3E251D113CAF00476F7A /* CredentialsViewController.h */,
+				5C8C3E261D113CAF00476F7A /* CredentialsViewController.m */,
+				5C8C3E271D113CAF00476F7A /* SettingsViewController.h */,
+				5C8C3E281D113CAF00476F7A /* SettingsViewController.m */,
+				5C8C3E291D113CAF00476F7A /* RegisterViewController.h */,
+				5C8C3E2A1D113CAF00476F7A /* RegisterViewController.m */,
+				5C8C3E2B1D113CAF00476F7A /* TimelineListViewController.h */,
+				5C8C3E2C1D113CAF00476F7A /* TimelineListViewController.m */,
+				5C8C3E2D1D113CAF00476F7A /* AgendaViewController.h */,
+				5C8C3E2E1D113CAF00476F7A /* AgendaViewController.m */,
+				5C8C3E2F1D113CAF00476F7A /* TimelineViewController.h */,
+				5C8C3E301D113CAF00476F7A /* TimelineViewController.m */,
+				5CE46D021D12921B00D8D38B /* TimelineListTableViewCell.h */,
+				5CE46D031D12921B00D8D38B /* TimelineListTableViewCell.m */,
+				5C3828F81D33AA39004EEF87 /* AgendaTableViewCell.h */,
+				5C3828F91D33AA39004EEF87 /* AgendaTableViewCell.m */,
+				5C56B7691D12B8600081A043 /* VideocallPeerViewCell.h */,
+				5C56B76A1D12B8600081A043 /* VideocallPeerViewCell.m */,
+				5C56B76B1D12B8600081A043 /* VideocallViewController.h */,
+				5C56B76C1D12B8600081A043 /* VideocallViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		5C2A04FE1C74D6BC0043D872 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5CCCC0AC1C7DFEC80006B667 /* UIView+Toast.h */,
+				5CCCC0AD1C7DFEC80006B667 /* UIView+Toast.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		CF235AB8EED4F50041C9E428 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3A72219E360EE9D0A2A0842 /* Pods-kc_ios_client.debug.xcconfig */,
+				5986299D1416FE4605E3CF16 /* Pods-kc_ios_client.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C2A04D91C74D2580043D872 /* kc_ios_client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2A04F41C74D2580043D872 /* Build configuration list for PBXNativeTarget "kc_ios_client" */;
+			buildPhases = (
+				A3732F5768F90E52CE8E1CBD /* [CP] Check Pods Manifest.lock */,
+				5C2A04D61C74D2580043D872 /* Sources */,
+				5C2A04D71C74D2580043D872 /* Frameworks */,
+				5C2A04D81C74D2580043D872 /* Resources */,
+				5C2A05C41C770FBE0043D872 /* Embed Frameworks */,
+				377EF90FB02174311CCA9713 /* [CP] Embed Pods Frameworks */,
+				26822EAA3F195A1558E8CA3A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kc_ios_client;
+			productName = kc_ios_client;
+			productReference = 5C2A04DA1C74D2580043D872 /* kc_ios_client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C2A04D21C74D2580043D872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Kurento;
+				TargetAttributes = {
+					5C2A04D91C74D2580043D872 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = E3QJGKGUHG;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5C2A04D51C74D2580043D872 /* Build configuration list for PBXProject "kc_ios_client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C2A04D11C74D2580043D872;
+			productRefGroup = 5C2A04DB1C74D2580043D872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C2A04D91C74D2580043D872 /* kc_ios_client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C2A04D81C74D2580043D872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2A04F01C74D2580043D872 /* LaunchScreen.storyboard in Resources */,
+				5C8C3E241D113C4D00476F7A /* Main.storyboard in Resources */,
+				5CCCC0851C7C8E4D0006B667 /* Localizable.strings in Resources */,
+				5CCCC0871C7DB7400006B667 /* Settings.bundle in Resources */,
+				5C2A04ED1C74D2580043D872 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26822EAA3F195A1558E8CA3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kc_ios_client/Pods-kc_ios_client-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		377EF90FB02174311CCA9713 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kc_ios_client/Pods-kc_ios_client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3732F5768F90E52CE8E1CBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C2A04D61C74D2580043D872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C56B76D1D12B8600081A043 /* VideocallPeerViewCell.m in Sources */,
+				5C8C3E351D113CAF00476F7A /* AgendaViewController.m in Sources */,
+				5C2A04E21C74D2580043D872 /* AppDelegate.m in Sources */,
+				5C3828FA1D33AA39004EEF87 /* AgendaTableViewCell.m in Sources */,
+				5CE46D041D12921B00D8D38B /* TimelineListTableViewCell.m in Sources */,
+				5C8C3E361D113CAF00476F7A /* TimelineViewController.m in Sources */,
+				5C8C3E331D113CAF00476F7A /* RegisterViewController.m in Sources */,
+				5C8C3E341D113CAF00476F7A /* TimelineListViewController.m in Sources */,
+				5C56B76E1D12B8600081A043 /* VideocallViewController.m in Sources */,
+				5C2A04DF1C74D2580043D872 /* main.m in Sources */,
+				5C8C3E321D113CAF00476F7A /* SettingsViewController.m in Sources */,
+				5CCCC0AE1C7DFEC80006B667 /* UIView+Toast.m in Sources */,
+				5C8C3E311D113CAF00476F7A /* CredentialsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C2A04EE1C74D2580043D872 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C2A04EF1C74D2580043D872 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5C8F6DC11C7C8D2500B2303E /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C8F6DC21C7C8D3000B2303E /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C2A04F21C74D2580043D872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C2A04F31C74D2580043D872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C2A04F51C74D2580043D872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A72219E360EE9D0A2A0842 /* Pods-kc_ios_client.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = kc_ios_client/kc_ios_client.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = kc_ios_client/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kurento.kc-ios-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C2A04F61C74D2580043D872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5986299D1416FE4605E3CF16 /* Pods-kc_ios_client.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = kc_ios_client/kc_ios_client.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = kc_ios_client/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kurento.kc-ios-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C2A04D51C74D2580043D872 /* Build configuration list for PBXProject "kc_ios_client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2A04F21C74D2580043D872 /* Debug */,
+				5C2A04F31C74D2580043D872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2A04F41C74D2580043D872 /* Build configuration list for PBXNativeTarget "kc_ios_client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2A04F51C74D2580043D872 /* Debug */,
+				5C2A04F61C74D2580043D872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C2A04D21C74D2580043D872 /* Project object */;
+}

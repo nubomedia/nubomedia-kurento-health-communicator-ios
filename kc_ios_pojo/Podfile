@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'kc_ios_pojo' do
+    pod 'JSONModel'
+end

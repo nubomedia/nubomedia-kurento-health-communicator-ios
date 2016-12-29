@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Xcode 7.0">
+    <entity name="Avatar" representedClassName="Avatar" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+    </entity>
+    <entity name="Command" representedClassName="Command" syncable="YES">
+        <attribute name="body" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="mediaLength" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mediaUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="commandList" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="OrderedCommands" inverseName="commandsOrdered" inverseEntity="OrderedCommands" syncable="YES"/>
+    </entity>
+    <entity name="Contact" representedClassName="Contact" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneRegion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="surname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="adminGroups" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Group" inverseName="admins" inverseEntity="Group" syncable="YES"/>
+        <relationship name="avatar" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Avatar" syncable="YES"/>
+        <relationship name="memberGroups" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Group" inverseName="members" inverseEntity="Group" syncable="YES"/>
+        <relationship name="timeline" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Timeline" inverseName="contact" inverseEntity="Timeline" syncable="YES"/>
+    </entity>
+    <entity name="Group" representedClassName="Group" syncable="YES">
+        <attribute name="admin" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="canLeave" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="canRead" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="canSend" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="localId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneRegion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="admins" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Contact" inverseName="adminGroups" inverseEntity="Contact" syncable="YES"/>
+        <relationship name="avatar" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Avatar" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Contact" inverseName="memberGroups" inverseEntity="Contact" syncable="YES"/>
+        <relationship name="timeline" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Timeline" inverseName="group" inverseEntity="Timeline" syncable="YES"/>
+    </entity>
+    <entity name="Message" representedClassName="Message" syncable="YES">
+        <attribute name="appName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appPayload" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contentId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="contentSize" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="contentType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contentUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="downloaded" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="fromId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="fromName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fromPicture" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="fromSurname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="localId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timelineId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="timelineName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timelineType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="uploaded" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="avatar" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Avatar" syncable="YES"/>
+        <relationship name="thumbnail" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Thumbnail" inverseName="message" inverseEntity="Thumbnail" syncable="YES"/>
+    </entity>
+    <entity name="OrderedCommands" representedClassName="OrderedCommands" syncable="YES">
+        <relationship name="commandsOrdered" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="Command" inverseName="commandList" inverseEntity="Command" syncable="YES"/>
+    </entity>
+    <entity name="Thumbnail" representedClassName="Thumbnail" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="message" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Message" inverseName="thumbnail" inverseEntity="Message" syncable="YES"/>
+    </entity>
+    <entity name="Timeline" representedClassName="Timeline" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastBody" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastTimestamp" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="messagesToRead" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ownerId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="partyId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="partyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="partyType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="contact" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Contact" inverseName="timeline" inverseEntity="Contact" syncable="YES"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Group" inverseName="timeline" inverseEntity="Group" syncable="YES"/>
+    </entity>
+    <entity name="UserMe" representedClassName="UserMe" syncable="YES">
+        <attribute name="channelId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneRegion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <attribute name="qos" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="avatar" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Avatar" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Avatar" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="Command" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="Contact" positionX="-36" positionY="9" width="128" height="195"/>
+        <element name="Group" positionX="-18" positionY="27" width="128" height="270"/>
+        <element name="Message" positionX="0" positionY="45" width="128" height="375"/>
+        <element name="OrderedCommands" positionX="18" positionY="63" width="128" height="60"/>
+        <element name="Thumbnail" positionX="36" positionY="81" width="128" height="90"/>
+        <element name="Timeline" positionX="-9" positionY="36" width="128" height="210"/>
+        <element name="UserMe" positionX="0" positionY="45" width="128" height="195"/>
+    </elements>
+</model>

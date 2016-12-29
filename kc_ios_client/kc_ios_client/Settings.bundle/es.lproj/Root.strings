@@ -1,0 +1,18 @@
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+"Group" = "Groupes";
+"Name" = "Name";
+"none given" = "none given";
+"Enabled" = "Enabled";
+
+"ServerPrefs" = "Preferencias del servidor";
+"ServerProtocol" = "Protocolo";
+"ServerAddr" = "Dirección";
+"ServerPort" = "Puerto";
+"Account" = "Cuenta";
+"AlertsSound" = "Alertas sonoras";
+"MessageMax" = "Máximo número de mensajes en memoria. 0 significa infinito";
+"SpaceMax" = "Máximo espacio para contenidos (Mb). 0 significa infinito";
+"Http" = "Http";
+"Https" = "Https";
+"UserPrefs" = "Preferencias de usuario";
