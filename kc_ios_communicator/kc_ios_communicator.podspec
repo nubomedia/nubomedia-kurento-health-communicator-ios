@@ -49,14 +49,8 @@ TODO: Add long description of the pod here.
   s.dependency 'AFNetworking'
   s.dependency 'OCMapper'
   s.dependency 'kc_ios_pojo'
-  s.dependency 'KurentoToolboxMod'
+  s.dependency 'KurentoToolbox', '~> 0.6.0'
   s.dependency 'Reachability', '~> 3.2'
-
-  s.subspec 'KurentoToolboxMod' do |ss|
-    ss.source_files = '../Kurento-iOS/Classes/KurentoToolbox.h'
-    #ss.ios.vendored_frameworks = '../../../Kurento-iOS-master/WebRTC.framework'
-  end
-
 
   s.subspec 'kc_ios_pojo' do |ss|
         ss.source_files = '../kc_ios_pojo/kc_ios_pojo/**/*.{h,m}'

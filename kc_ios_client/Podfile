@@ -1,5 +1,4 @@
 target 'kc_ios_client' do
   pod 'kc_ios_communicator', :path => "../kc_ios_communicator"
   pod 'kc_ios_pojo', :path => "../kc_ios_pojo"
-  pod 'KurentoToolboxMod', :path => "../Kurento-iOS"
 end

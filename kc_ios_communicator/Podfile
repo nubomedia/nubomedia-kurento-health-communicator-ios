@@ -3,6 +3,6 @@ target 'kc_ios_communicator' do
   pod 'AFNetworking'
   pod 'OCMapper'
 
-  pod 'KurentoToolboxMod', :path => "../Kurento-iOS"
+  pod 'KurentoToolbox', '~> 0.6.0'
   pod 'Reachability', '~> 3.2'
 end

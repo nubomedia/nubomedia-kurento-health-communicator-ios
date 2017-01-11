@@ -18,9 +18,9 @@
 
 #import "RoomManager.h"
 #import "Constants.h"
-#import <KurentoToolboxMod/WebRTC/RTCPeerConnection.h>
-#import <KurentoToolboxMod/WebRTC/RTCSessionDescription.h>
-#import <KurentoToolboxMod/WebRTC/RTCDataChannel.h>
+#import <KurentoToolbox/WebRTC/RTCPeerConnection.h>
+#import <KurentoToolbox/WebRTC/RTCSessionDescription.h>
+#import <KurentoToolbox/WebRTC/RTCDataChannel.h>
 
 #import <Reachability.h>
 

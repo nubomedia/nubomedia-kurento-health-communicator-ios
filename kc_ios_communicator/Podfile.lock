@@ -22,61 +22,59 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.2.0):
     - CocoaLumberjack/Default
-  - JSONModel (1.5.1)
+  - JSONModel (1.7.0)
   - kc_ios_pojo (0.1.0):
     - JSONModel
-  - KurentoToolboxMod (0.3.0):
-    - KurentoToolboxMod/Default (= 0.3.0)
-  - KurentoToolboxMod/Default (0.3.0):
-    - KurentoToolboxMod/JSON-RPC
-    - KurentoToolboxMod/Room
-    - KurentoToolboxMod/Tree
-    - KurentoToolboxMod/WebRTC
-  - KurentoToolboxMod/JSON-RPC (0.3.0):
-    - KurentoToolboxMod/Utils
+  - KurentoToolbox (0.6.0):
+    - KurentoToolbox/Default (= 0.6.0)
+  - KurentoToolbox/Default (0.6.0):
+    - KurentoToolbox/JSON-RPC
+    - KurentoToolbox/KurentoWebRTC
+    - KurentoToolbox/Room
+    - KurentoToolbox/Tree
+  - KurentoToolbox/JSON-RPC (0.6.0):
+    - KurentoToolbox/Utils
     - SBJson (~> 4.0.2)
     - SocketRocket (~> 0.4.1)
-  - KurentoToolboxMod/Room (0.3.0):
-    - KurentoToolboxMod/JSON-RPC
-    - KurentoToolboxMod/Utils
-    - KurentoToolboxMod/WebRTC
-  - KurentoToolboxMod/Tree (0.3.0):
-    - KurentoToolboxMod/JSON-RPC
-    - KurentoToolboxMod/Utils
-    - KurentoToolboxMod/WebRTC
-  - KurentoToolboxMod/Utils (0.3.0):
+  - KurentoToolbox/KurentoWebRTC (0.6.0):
+    - KurentoToolbox/Utils
+  - KurentoToolbox/Room (0.6.0):
+    - KurentoToolbox/JSON-RPC
+    - KurentoToolbox/KurentoWebRTC
+    - KurentoToolbox/Utils
+  - KurentoToolbox/Tree (0.6.0):
+    - KurentoToolbox/JSON-RPC
+    - KurentoToolbox/KurentoWebRTC
+    - KurentoToolbox/Utils
+  - KurentoToolbox/Utils (0.6.0):
     - CocoaLumberjack (~> 2.2.0)
-  - KurentoToolboxMod/WebRTC (0.3.0):
-    - KurentoToolboxMod/Utils
   - OCMapper (2.1)
   - Reachability (3.2)
-  - SBJson (4.0.2)
+  - SBJson (4.0.5)
   - SocketRocket (0.4.2)
 
 DEPENDENCIES:
   - AFNetworking
   - kc_ios_pojo (from `../kc_ios_pojo`)
-  - KurentoToolboxMod (from `../Kurento-iOS`)
+  - KurentoToolbox (~> 0.6.0)
   - OCMapper
   - Reachability (~> 3.2)
 
 EXTERNAL SOURCES:
   kc_ios_pojo:
     :path: ../kc_ios_pojo
-  KurentoToolboxMod:
-    :path: ../Kurento-iOS
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
-  JSONModel: fd2553dc9e6608a3f35bfc956a14be35395d3852
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   kc_ios_pojo: 94cb110e711006b492f95469bfcac90642e58ee1
-  KurentoToolboxMod: b94b40e4f8fe1edfbb88a0d32181ece07ea3b6bd
+  KurentoToolbox: a82b60516371515847f1347a3e7f14c9b882a949
   OCMapper: fa22e7b51de7cc38e66b993037076d28a0f31b29
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
+  SBJson: af3137ccda22be3004487524da0a071c75d4251b
   SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
 
-PODFILE CHECKSUM: b7f445c76f6a3a580ef08959e9a07de7d8b8c27d
+PODFILE CHECKSUM: 576e1815705f2b8bdb448206fdc9aeec568e07c3
 
 COCOAPODS: 1.0.1

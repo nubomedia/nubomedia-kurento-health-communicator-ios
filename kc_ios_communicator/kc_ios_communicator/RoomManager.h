@@ -16,7 +16,7 @@
 // under the License.
 
 #import <Foundation/Foundation.h>
-#import <KurentoToolboxMod/KurentoToolbox.h>
+#import <KurentoToolbox/KurentoToolbox.h>
 #import <WebRTC/RTCPeerConnection.h>
 
 @class RoomManager;
