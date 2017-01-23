@@ -50,7 +50,7 @@ NSString *const READ_CONTACT_URL = @"/khcrest/v2/user";
 NSString *const CONTACT_URL = @"contact";
 NSString *const PASSWORD_RESET_REQUEST_URL = @"/khcrest/v2/password/code";
 NSString *const PASSWORD_RESET_URL = @"/khcrest/v2/password/reset";
-NSString *const ROOM_URL = @"https://w4d2cb20f.apps.nubomedia-paas.eu/room";
+NSString *const ROOM_URL = @"https://q630f3c9c.apps.nubomedia-paas.eu:443/room";
 #pragma mark -
 
 #pragma mark Pojo Keys.

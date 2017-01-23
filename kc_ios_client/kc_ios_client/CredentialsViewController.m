@@ -43,12 +43,6 @@
     [enterButton setTitle:NSLocalizedString(@"Log in", @"Log in") forState:UIControlStateNormal];
     [registerLabel setText:NSLocalizedString(@"Register text", @"Don't you have an account?")];
     [registerButton setTitle:NSLocalizedString(@"Register", @"Register") forState:UIControlStateNormal];
-    
-    
-    NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
-    [prefs setObject:@"kurento" forKey:SETTINGS_ACCOUNT];
-    
-    [prefs synchronize];
 }
 
 - (void)didReceiveMemoryWarning {
