@@ -90,13 +90,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="R7R-8U-CVx" secondAttribute="bottom" constant="8" id="wah-0h-1iy"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Kurento Communicator" id="Xvi-d9-w6V">
-                        <barButtonItem key="rightBarButtonItem" title="Settings" id="cwo-eG-Ct0">
-                            <connections>
-                                <action selector="settingsButtonAction:" destination="BYZ-38-t0r" id="9hB-B6-rKM"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Kurento Communicator" id="Xvi-d9-w6V"/>
                     <connections>
                         <outlet property="activityIndicator" destination="8GH-iv-NdN" id="OzL-6J-Hvy"/>
                         <outlet property="enterButton" destination="0D2-PA-bez" id="gqB-Kv-74h"/>
@@ -104,7 +98,6 @@
                         <outlet property="passField" destination="7Aw-FM-fFX" id="PKx-kx-ycx"/>
                         <outlet property="registerButton" destination="4o6-D1-1A0" id="C2R-8Q-cOR"/>
                         <outlet property="registerLabel" destination="R7R-8U-CVx" id="Pw4-Y9-plV"/>
-                        <outlet property="settingsButton" destination="cwo-eG-Ct0" id="Pzm-tA-1Lp"/>
                         <segue destination="11J-fk-YQN" kind="presentation" identifier="initialSegue" id="WeM-nY-Yoi"/>
                         <segue destination="nuh-Ya-scs" kind="show" identifier="settingsSegue" id="9ZD-En-lEb"/>
                     </connections>

@@ -29,7 +29,7 @@
 
 @implementation CredentialsViewController
 
-@synthesize nameField, passField, enterButton, settingsButton, registerLabel, registerButton, activityIndicator;
+@synthesize nameField, passField, enterButton, registerLabel, registerButton, activityIndicator;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -101,13 +101,8 @@
     [enterButton setHidden:!enable];
     [nameField setEnabled:enable];
     [passField setEnabled:enable];
-    [settingsButton setEnabled:enable];
     [registerButton setEnabled:enable];
     [activityIndicator setHidden:enable];
-}
-
-- (IBAction)settingsButtonAction:(UIBarButtonItem *)sender {
-    [self performSegueWithIdentifier:@"settingsSegue" sender:self];
 }
 
 - (IBAction)enterButtonAction:(UIButton *)sender {

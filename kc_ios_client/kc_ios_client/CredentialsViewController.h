@@ -22,12 +22,10 @@
 @property (weak, nonatomic) IBOutlet UITextField *nameField;
 @property (weak, nonatomic) IBOutlet UITextField *passField;
 @property (weak, nonatomic) IBOutlet UIButton *enterButton;
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *settingsButton;
 @property (weak, nonatomic) IBOutlet UILabel *registerLabel;
 @property (weak, nonatomic) IBOutlet UIButton *registerButton;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
-- (IBAction)settingsButtonAction:(UIBarButtonItem *)sender;
 - (IBAction)enterButtonAction:(UIButton *)sender;
 
 @end
